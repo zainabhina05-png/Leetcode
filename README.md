@@ -145,6 +145,7 @@ npm test
 ## Dynamic Programming
 |  |
 | ------- |
+| [0799-champagne-tower](https://github.com/zainabhina05-png/Leetcode/tree/master/0799-champagne-tower) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Bit Manipulation
 |  |
