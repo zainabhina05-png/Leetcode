@@ -1,84 +1,56 @@
+constexpr int L=18, N=1e5+1;
+using int2=pair<int, int>;
+int up[L][N], pos[N]; 
+int2 xId[N];
+
 class Solution {
 public:
-    static const int LOG = 18;
+    static int cnt(int u, int v, int L) {
+        if (u==v) return 0;
+        if (up[0][u]>=v) return 1;
+        // cannot reach v
+        if (up[L-1][u]<v) return -1; 
 
-    int up[LOG][100005];
-    int pos[100005];
-    pair<int, int> arr[100005];
-
-    
-    int getJumps(int u, int v) {
-        if (u == v)
-            return 0;
-
-        
-        if (up[0][u] >= v)
-            return 1;
-
-
-        if (up[LOG - 1][u] < v)
-            return -1;
-
-        int jumps = 0;
-
-        for (int j = LOG - 1; j >= 0; j--) {
-            if (up[j][u] < v) {
-                jumps += (1 << j);
-                u = up[j][u];
+        int step=0;
+        for (int j=L-1; j>=0; j--) { 
+            if (up[j][u]<v) { // Only jump when satisfied
+                step+=(1<<j);
+                u=up[j][u];
             }
         }
-
-        return jumps + 1;
+        return step+1;
     }
 
-    vector<int> pathExistenceQueries( int n,vector<int>& nums,int maxDiff,vector<vector<int>>& queries ) {
-    
-        for (int i = 0; i < n; i++) {
-            arr[i] = {nums[i], i};
-        }
-
-    
-        sort(arr, arr + n);
-
+    vector<int> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {
+        int maxL=bit_width((unsigned)n)+1;
+        for(int i=0; i<n; i++) 
+            xId[i]={nums[i], i};
         
-        for (int i = 0; i < n; i++) {
-            pos[arr[i].second] = i;
-        }
-
-    
-        int right = 0;
-
-        for (int left = 0; left < n; left++) {
-            while (
-                right + 1 < n &&
-                arr[right + 1].first - arr[left].first <= maxDiff
-            ) {
-                right++;
-            }
-
-            up[0][left] = right;
-        }
-
+        sort(xId, xId+n);
+        for (int i=0; i<n; i++)// pos of index in sorted xId
+            pos[xId[i].second]=i;
         
-        for (int j = 1; j < LOG; j++) {
-            for (int i = 0; i < n; i++) {
-                up[j][i] = up[j - 1][up[j - 1][i]];
+        //sliding window 
+        for (int l=0, r=0; l<n; l++) {
+            while (r+1<n && xId[r+1].first-xId[l].first<=maxDiff) 
+                r++;
+            up[0][l]=r;
+        }
+
+        // Compute binary lifting tables
+        for (int j=1; j<maxL; j++) {
+            for (int i=0; i<n; i++) {
+                up[j][i]=up[j-1][up[j-1][i]];
             }
         }
 
-        
-        vector<int> ans;
-
-        for (auto &q : queries) {
-            int u = pos[q[0]];
-            int v = pos[q[1]];
-
-            if (u > v)
-                swap(u, v);
-
-            ans.push_back(getJumps(u, v));
+        const int qz=queries.size();
+        vector<int> ans(qz);
+        int i=0;
+        for (auto& q : queries) {
+            auto [u, v]=minmax(pos[q[0]], pos[q[1]]);
+            ans[i++]=cnt(u, v, maxL);
         }
-
         return ans;
     }
 };
