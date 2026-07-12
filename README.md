@@ -122,6 +122,7 @@ npm test
 ## Array
 |  |
 | ------- |
+| [1331-rank-transform-of-an-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zainabhina05-png/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Greedy
@@ -132,6 +133,7 @@ npm test
 ## Sorting
 |  |
 | ------- |
+| [1331-rank-transform-of-an-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zainabhina05-png/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Two Pointers
@@ -168,4 +170,8 @@ npm test
 |  |
 | ------- |
 | [2685-count-the-number-of-complete-components](https://github.com/zainabhina05-png/Leetcode/tree/master/2685-count-the-number-of-complete-components) |
+## Hash Table
+|  |
+| ------- |
+| [1331-rank-transform-of-an-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 <!---LeetCode Topics End-->
