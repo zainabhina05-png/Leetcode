@@ -183,4 +183,8 @@ npm test
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/zainabhina05-png/Leetcode/tree/master/0067-add-binary) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/zainabhina05-png/Leetcode/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
