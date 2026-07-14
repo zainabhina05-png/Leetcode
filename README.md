@@ -110,6 +110,7 @@ npm test
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/zainabhina05-png/Leetcode/tree/master/0067-add-binary) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/zainabhina05-png/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/zainabhina05-png/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## String
@@ -127,6 +128,7 @@ npm test
 | [0001-two-sum](https://github.com/zainabhina05-png/Leetcode/tree/master/0001-two-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zainabhina05-png/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/zainabhina05-png/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Greedy
 |  |
@@ -151,6 +153,7 @@ npm test
 |  |
 | ------- |
 | [0799-champagne-tower](https://github.com/zainabhina05-png/Leetcode/tree/master/0799-champagne-tower) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/zainabhina05-png/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Bit Manipulation
 |  |
@@ -187,4 +190,8 @@ npm test
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/zainabhina05-png/Leetcode/tree/master/1291-sequential-digits) |
+## Number Theory
+|  |
+| ------- |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/zainabhina05-png/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 <!---LeetCode Topics End-->
