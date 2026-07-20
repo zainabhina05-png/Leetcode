@@ -131,6 +131,7 @@ npm test
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/zainabhina05-png/Leetcode/tree/master/0001-two-sum) |
+| [1260-shift-2d-grid](https://github.com/zainabhina05-png/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zainabhina05-png/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -196,6 +197,7 @@ npm test
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/zainabhina05-png/Leetcode/tree/master/0067-add-binary) |
+| [1260-shift-2d-grid](https://github.com/zainabhina05-png/Leetcode/tree/master/1260-shift-2d-grid) |
 ## Enumeration
 |  |
 | ------- |
@@ -223,4 +225,8 @@ npm test
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/zainabhina05-png/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Matrix
+|  |
+| ------- |
+| [1260-shift-2d-grid](https://github.com/zainabhina05-png/Leetcode/tree/master/1260-shift-2d-grid) |
 <!---LeetCode Topics End-->
