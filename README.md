@@ -122,6 +122,7 @@ npm test
 | [0067-add-binary](https://github.com/zainabhina05-png/Leetcode/tree/master/0067-add-binary) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/zainabhina05-png/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/zainabhina05-png/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/zainabhina05-png/Leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/zainabhina05-png/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/zainabhina05-png/Leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Prefix Sum
@@ -135,6 +136,7 @@ npm test
 | [0001-two-sum](https://github.com/zainabhina05-png/Leetcode/tree/master/0001-two-sum) |
 | [1260-shift-2d-grid](https://github.com/zainabhina05-png/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1331-rank-transform-of-an-array) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/zainabhina05-png/Leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/zainabhina05-png/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zainabhina05-png/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3312-sorted-gcd-pair-queries](https://github.com/zainabhina05-png/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
